@@ -5,6 +5,11 @@
 
 .heading-1{
   @extend %heading;
+
+  font-size: 4.5rem;
+  color: $color-grey-light-1;
+  line-height: 1;
+
 }
 
 .heading-2{
@@ -20,6 +25,15 @@
   &--dark{
     color: $color-grey-dark-1;
   }
+
+  &__logo-text{
+    color: $color-primary;
+    font-style: normal;
+    margin-left: .5rem;
+    text-transform: lowercase;
+    font-weight: 200;
+  }
+
 }
 
 .heading-3{
