@@ -92,6 +92,7 @@ body {
 
 .sidebar {
   background-color: #c69963;
+  cursor: pointer;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
