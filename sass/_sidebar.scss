@@ -24,13 +24,13 @@
 
   margin-top: 4rem;
 
-  &::before,&::after{
+  &::before,&::after {
     background-color: #fff;
     height: 2px;
     width: 4.5rem;
     content: "";
     display: block;
-
+  }
 
   &::before{
     transform: translateY(-1.5rem);
@@ -49,7 +49,8 @@
     }
 
     &::after{
-      transform: translateY(0rem);
+      transform: translateY(1rem);
     }
   }
+
 }
